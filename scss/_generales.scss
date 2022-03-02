@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%; /* 1 rem == 10px */
+}
+
+// Bodys
+
+// Project Body
+
+body{
+    background: $color-background;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+/* BARRA DE NAVEGACION */
+
+::-webkit-scrollbar{
+	width: 0.75em;
+}
+
+::-webkit-scrollbar-track{
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #888;
+}
+

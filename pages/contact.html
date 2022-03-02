@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importamos el CDN para los logos -->
+    <script src="https://kit.fontawesome.com/507a977cad.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Contact</title>
+</head>
+<body class="body__contact">
+    <header class="header__pages header__pages--contact">
+        <label for="trigger">
+            <input type="checkbox" class="trigger" id="trigger"/>
+            <div>
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-responsive">
+                <ul class="nav__ul--responsive">
+                    <li class="nav__li--responsive">
+                        <a class="nav__a--responsive" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav__li--responsive">
+                        <a class="nav__a--responsive" href="about.html">About</a>
+                    </li>
+                    <li class="nav__li--responsive">
+                        <a class="nav__a--responsive" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav__li--responsive">
+                        <a class="nav__a--responsive" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav__li--responsive">
+                        <a class="nav__a--responsive" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </label>
+        <nav class="nav__pages">
+            <ul class="nav__ul--pages">
+                <li class="nav__li--pages">
+                    <a class="nav__a" href="../index.html">Home</a>
+                </li>
+                <li class="nav__li--pages">
+                    <a class="nav__a" href="about.html">About</a>
+                </li>
+                <li class="nav__li--pages">
+                    <a class="nav__a" href="projects.html">Projects</a>
+                </li>
+                <li class="nav__li--pages">
+                    <a class="nav__a" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav__li--pages">
+                    <a class="nav__a" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contactarme -->
+    <main class="main__contact">
+        <!-- Seccion izquierda -->
+        <section class="main__contact--left">
+            <form class="main__form" action="">
+                <div class="main__containers">
+                    <div class="main__container--hello">
+                        <p class="contact__text">
+                            <img class="contact__mano" src="https://emojigraph.org/media/joypixels/waving-hand_1f44b.png" alt="">
+                            Hola. Vamos a contactarnos!
+                        </p>
+                    </div>
+                    <div class="main__container--inputs">
+                        <div class="main__container--labels">
+                            <label for="name">Nombre</label>
+                            <input type="name" required >
+                        </div>
+                        <div class="main__container--labels">
+                            <label class="" for="email">Email</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="main__container--labels">
+                            <label for="apellido">Razon de contacto</label>
+                            <input type="apellido" required>
+                        </div>
+                        <div class="main__container--labels textareas">
+                            <label for="phone">Mensaje</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <input class="buttonSend" type="submit">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- Seccion derecha -->
+        <section class="main__contact--right">
+            <div class="main__containers--right">
+                <p class="contact__text">Ubicacion</p>
+                <p class="contacto__text--info">San Isidro, Buenos Aires.</p>
+            </div>
+            <div class="main__containers--right">
+                <p class="contact__text">Soporte</p>
+                <p class="contacto__text--info">marcoallegri@99outlook.com</p>
+            </div>
+        </section>
+    </main>
+    <!-- Footer general -->
+    <footer class="footer__pages">
+        <p class="footer__p"><span class="footer__span">&copy;Marco Allegri: </span> Diseñador Web Freelance</p>
+        <p class="footer__p">Web alojada en <span class="footer__span">Netlify</span></p>
+        <div class="footer__container">
+            <a class="footer__a" href="https://www.instagram.com/marcooallegri/">
+                <i class="footer__icons fab fa-instagram"></i>
+            </a>
+            <a class="footer__a" href="https://www.linkedin.com/in/marco-allegri">
+                <i class="footer__icons fab fa-linkedin"></i>
+            </a>
+            <a class="footer__a" href="https://api.whatsapp.com/send?phone=+54 9 11 5485-4428">
+                <i class="footer__icons fab fa-whatsapp"></i>
+            </a>
+            <a class="footer__a" href="">
+                <i class="footer__icons fas fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

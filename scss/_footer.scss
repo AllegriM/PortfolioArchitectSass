@@ -1,0 +1,70 @@
+// FOOTER general
+
+.footer__pages{
+    grid-area: footer;
+    background: $color-background;
+    color: $color-font;
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 5px;
+        width: 90%;
+        left: 5%;
+        height: .1px;
+        background: $color-font-grey;
+    }
+    .footer__pages::before{
+        content: "";
+        position: absolute;
+        top: 5px;
+        width: 90%;
+        left: 5%;
+        height: .1px;
+        background: $color-font-grey;
+    }
+    .footer__p{
+        text-align: center;
+        font-size: 1.5rem;
+        color: $color-font;
+        .footer__span{
+            padding: 0;
+            text-align: center;
+            color: $color-font;
+            font-weight: bold;
+            font-family: $font-texts;
+        }
+    }
+    .footer__container{
+        margin-top: 15px;
+        .footer__span{
+            padding: 0;
+            text-align: center;
+            color: $color-font;
+            font-weight: bold;
+            font-family: $font-texts;
+        }
+        .footer__a{
+            text-align: center;
+            text-decoration: none;
+            color: $color-font;
+            transition: 0.3s ease-out;
+            margin: 0 1%;
+            .footer__icons{
+                font-size: 1.5rem;
+                padding: 10px;
+                border: 2px solid whitesmoke;
+                border-radius: 50%;
+                &:hover{
+                    color: black;
+                    background-color: $color-font;
+                }
+            }
+        }
+    }
+}

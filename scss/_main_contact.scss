@@ -1,0 +1,109 @@
+// Main Contact
+
+.main__contact{
+    grid-area: main;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    // Left side
+    .main__contact--left{
+        width: 50%;
+        animation: right-load 600ms ease-in-out;
+        .main__form{
+            .main__containers{
+                margin: 50px 30%;
+                .main__container--hello{
+                    .contact__text{
+                        color: $color-font-grey;
+                        font-size: 1.5rem;
+                        font-family: $font-texts;
+                        .contact__mano{
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+                .main__container--inputs{
+                    margin-top: 10px;
+                    width: 100%;
+                    .main__container--labels{
+                        margin: 5% 0;
+                        padding: 5px 0;
+                        height: 80px;
+                        label{
+                            display: block;
+                            font-family: $font-texts;
+                            color: $color-font;
+                            font-size: 2rem;
+                            margin: 0;
+                        }
+                        input{
+                            width: 90%;
+                            margin: 15px 0;
+                            padding: 10px 0;
+                            font-family: $font-texts;
+                            &:focus{
+                                border-bottom: 1px solid $color-font;
+                            }
+                        }
+                    }
+                    .buttonSend{
+                        width: auto;
+                        margin-top: 70px;
+                        margin-left: 100%;
+                        color: $color-font;
+                        height: 70px;
+                        font-family: $font-texts;
+                        font-size: 2rem;
+                        cursor: pointer;
+                    }
+                    .textareas{
+                        height: 100px;
+                        margin-top: 15px;
+                        display: block;
+                        textarea{
+                            margin-top: 20px;
+                            height: 100%;
+                        }
+                    }
+                    input, 
+                    textarea{
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        height: 20px;
+                        color: $color-font;
+                        font-size: 1.5rem;
+                        resize: none;
+                        display: inline-block;
+                        &:focus{
+                            border-bottom: 1px solid $color-font;
+                        }
+                    }
+                }
+            }           
+        }
+    }
+    // Right side
+    .main__contact--right{
+        /* width: 50%; */
+        animation: left-load 600ms ease-in-out;
+        .main__containers--right{
+            margin: 50px 30%;
+            .contact__text{
+                color: $color-font-grey;
+                font-size: 1.5rem;
+                font-family: $font-texts;
+            }
+            .contacto__text--info{
+                margin-top: 10px;
+                font-size: 1.5rem;
+                font-family: $font-texts;
+                color: $color-font;
+            }
+        }
+    }
+}
+

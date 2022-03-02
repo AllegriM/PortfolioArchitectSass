@@ -1,0 +1,36 @@
+// MAIN (Index)
+
+main{
+    grid-area: main;
+    // Music Player
+    .main__music{
+        color: $color-font;
+        text-align: center;
+        position: absolute;
+        font-size: 1.5rem;
+        top: 95%;
+        left: 90%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    // Background & text
+    .main__img{
+        z-index: -1;
+        object-fit: cover;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        bottom: 0;  
+    }
+    .main__text{
+        color: $color-font;
+        position: absolute;
+        top: 50%;
+        margin-left: 10%;
+        padding: 0 30px;
+        font-size: 5rem;
+        font-family: $font-texts;
+    }
+}
