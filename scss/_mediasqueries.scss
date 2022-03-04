@@ -1,16 +1,15 @@
-
-// MEDIA QUERIES
+/* //============= MEDIA QUERIES ================// */
 
 @media screen and (min-width: 0px) and (max-width:480px){
     /* Index */
-    .nav{
-        margin-right: 0;
-    }
-    .nav__li{
-        display: none;
-    }
-    .nav__logo--container{
-        font-size: 3rem;
+    .nav__pages{
+        height: 75px;
+        background-color: $color-background;
+        .nav__ul--pages{
+            .nav__li--pages{
+                display: none;
+            }
+        }
     }
     .fa-bars{
         margin-right: 1em;
@@ -19,88 +18,88 @@
         right: 30px;
         top: 20px;
     }
-
     /* About */
-    .nav__li--pages{
-        display: none;
-    }
     .main__about{
         height: 100%;
         flex-wrap: wrap;
         flex-direction: column;
-    }
-    .main__left{
-        margin: auto 10%;
-        text-align: center;
-    }
-    .main__right{
-        margin: auto 10%;
-        text-align: center;
-    }
-    .main__description{
-        margin: 0;
-        text-align: center;
-    }
-    .main__description--text{
-        text-align: center;
-        margin: 0;
-        max-width: 50ch;
-    }
-    .main__description--title{
-        margin: 0;
-    }
-    .main__img--about{
-        height: 300px;
-        width: 300px;
-        margin: 10% 0;
+        .main__left{
+            margin: auto 10%;
+            text-align: center;
+            .div__left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .main__img--about{
+                    height: 300px;
+                    width: 300px;
+                }
+            }
+        }
+        .main__right{
+            margin: 0;
+            margin-top: 5%;
+            text-align: center;
+            .div__right{
+                .main__description{
+                    margin: 0;
+                    text-align: center;
+                }
+                .main__description--text{
+                    text-align: center;
+                    margin: 0;
+                    max-width: 50ch;
+                }
+                .main__description--title{
+                    margin: 0;
+                }
+            }
+        }
     }
     /* Gallery */
-    .gallery__main--container{
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
+    .gallery__main{
+        .gallery__main--container{
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
     }
      /* Projects */
     .main__projects{
         margin-top: 10%;
     }
-    .header__pages--projects{
-        height: 70px;
-        background: var(--color-background);
-    }
     /* Contact */
     .main__contact{
         align-content: flex-end;
-    }
-    .main__contact--left{
-        width: 100%;
-    }
-    .main__containers{
-        padding: 35px 0;
-        margin-left: 40px;
-    }
-    .main__contact--right{
-        width: 100%;
-        margin-left: 10%;
-        margin-bottom: 10%;
-    }
-    .contacto__text--info{
-        width: 100%;
-    }
-    .main__containers--right{
-        margin: 0;
+        .main__contact--left{
+            width: 100%;
+            .main__form{
+                .main__containers{
+                    padding: 35px 0;
+                    margin-left: 40px;
+                    .main__container--inputs{
+                        .textareas{
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .main__contact--right{
+            width: 100%;
+            margin-left: 10%;
+            margin-bottom: 10%;
+            .main__containers--right{
+                margin: 0;
+                .contacto__text--info{
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
-
 @media screen and (min-width: 480px) and (max-width:768px){
-    /* Index */
-    .nav{
-        margin-right: 0;
-    }
-    .nav__li{
-        display: none;
-    }
     .fa-bars{
         margin-right: 1em;
         font-size: 6rem;
@@ -108,64 +107,71 @@
         right: 30px;
         top: 20px;
     }
-    /* About */
-    .nav__li--pages{
-        display: none;
-    }
-    .menu{
-        margin-right: 0;
-        font-size: 4rem;
-        position: absolute;
-        right: 30px;
-        top: 10px;
+    .header__index{
+        background: transparent;
     }
     .header__pages{
-        height: 68px;
+        height: 70px;
+        background: $color-background;
+        width: 100%;
+        .nav__ul--pages{
+            .nav__li--pages{
+                display: none;
+            }
+        }
     }
+    /* About */
+
     .main__about{
         height: 100%;
         flex-direction: column;
-    }
-    .main__left{
-        margin: auto 5%;
-        text-align: center;
-
-    }
-    .main__right{
-        margin: auto 10%;
-        text-align: center;
-    }
-    .main__description{
-        margin: 0;
-        text-align: center;
-    }
-    .main__description--text{
-        text-align: center;
-        margin: 0;
-    }
-    .main__description--title{
-        margin: 0;
-    }
-    .main__img--about{
-        height: 300px;
-        width: 300px;
-        margin: 10% 0;
+        .main__left{
+            margin: auto 5%;
+            text-align: center;
+            .div__left{
+                .main__img--about{
+                    height: 300px;
+                    width: 300px;
+                    margin: 10% 0;
+                }
+            }
+        }
+        .main__right{
+            margin: auto 10%;
+            text-align: center;
+            .div__right{
+                .main__description{
+                    margin: 0;
+                    text-align: center;
+                }
+                .main__description--text{
+                    text-align: center;
+                    margin: 0;
+                }
+                .main__description--title{
+                    margin: 0;
+                }
+            }
+        }
     }
     /* Gallery */
-    .gallery__main--container{
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
+    .gallery__main{
+        .gallery__main--container{
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
     }
     /* Projects */
-    .header__pages--projects{
-        height: 70px;
-        background: var(--color-background);
+    .main__li--projects{
+        a{
+            .main__img--projects{
+                height: 350px;
+                width: 350px;
+            }
+        }
     }
-    .main__img--projects{
-        height: 350px;
-        width: 350px;
-    }
+
     /* Contact */
     .main__contact{
         width: 100%;
@@ -173,124 +179,125 @@
         flex-wrap: wrap;
         align-content: flex-end;
         margin-bottom: 5%;
+        .main__contact--left{
+            width: 100%;
+            .main__form{
+                .main__containers{
+                    padding: 35px 0;
+                    margin-left: 40px;
+                }
+            }
+        }
+        .main__contact--right{
+            width: 100%;
+            margin-left: 10%;
+            .main__containers--right{
+                margin: 0;
+                .contacto__text--info{
+                    width: 100%;
+                }
+            }
+        }
     }
-    .main__contact--left{
-        width: 100%;
-    }
-    .main__containers{
-        padding: 35px 0;
-        margin-left: 40px;
-    }
-    .main__contact--right{
-        width: 100%;
-        margin-left: 10%;
-    }
-    .contacto__text--info{
-        width: 100%;
-    }
-    .main__containers--right{
-        margin: 0;
-    }
-    
 }
 @media screen and (min-width: 768px) and (max-width:1023px){
     /* Index */
-    .nav{
-        margin-right: 0;
-    }
-    .nav__li{
-        display: none;
-    }
-    .fa-bars{
-        margin-right: 1em;
-        font-size: 6rem;
-        position: absolute;
-        right: 30px;
-        top: 20px;
-    }
-    /* About */
-    .nav__li--pages{
-        display: none;
-    }
-    .menu{
-        margin-right: 0;
-        font-size: 4rem;
-        position: absolute;
-        right: 30px;
-        top: 10px;
-    }
     .header__pages{
         height: 68px;
+        .nav__pages{
+            margin-right: 0;
+            .nav__ul--pages{
+                .nav__li--pages{
+                    display: none;
+                }
+            }
+        }
+    }   
+    label div{
+        .fa-bars{
+            margin-right: 1em;
+            font-size: 6rem;
+            position: absolute;
+            right: 30px;
+            top: 20px;
+        }
     }
+    /* About */
     .main__about{
         height: 100%;
         flex-wrap: wrap;
         flex-direction: column;
-    }
-    .main__left{
-        margin: auto 10%;
-        text-align: center;
-    }
-    .main__right{
-        margin: auto 10%;
-        text-align: center;
-    }
-    .main__description{
-        margin: 0;
-        text-align: center;
-    }
-    .main__description--text{
-        text-align: center;
-        margin: 0;
-    }
-    .main__description--title{
-        margin: 0;
-    }
-    .main__img--about{
-        height: 400px;
-        width: 400px;
-        margin: 10% 0;
-    }
-    .div__right{
-        margin-bottom: 50px;
+        .main__left{
+            margin: auto 10%;
+            text-align: center;
+            .div__left{
+                .main__img--about{
+                    height: 400px;
+                    width: 400px;
+                    margin: 10% 0;
+                }
+            }
+        }
+        .main__right{
+            margin: auto 10%;
+            text-align: center;
+            .div__right{
+                margin-bottom: 50px;
+                .main__description{
+                    margin: 0;
+                    text-align: center;
+                }
+                .main__description--text{
+                    text-align: center;
+                    margin: 0;
+                }
+                .main__description--title{
+                    margin: 0;
+                }
+            }
+        }
     }
     /* Gallery */
-    .gallery__main--container{
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 0px;
+    .gallery__main{
+        .gallery__main--container{
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 0px;
+        }
     }
     /* Projects */
-    .header__pages--projects{
-        height: 70px;
-        background: var(--color-background);
+    .main__li--projects{
+        a{
+            .main__img--projects{
+                height: 350px;
+                width: 350px;
+            }
+        }
     }
-    .main__img--projects{
-        height: 350px;
-        width: 350px;
-    }
-        /* Contact */
+    /* Contact */
     .main__contact{
         width: 100%;
         height: 100vh;
         flex-wrap: wrap;
-        margin-bottom: 7%;
-    }
-    .main__contact--left{
-        width: 100%;
-    }
-    .main__containers{
-        padding: 35px 0;
-        margin-left: 40px;
-    }
-    .main__contact--right{
-        width: 100%;
-        margin-left: 10%;
-    }
-    .contacto__text--info{
-        width: auto;
-    }
-    .main__containers--right{
-        margin: 0;
+        margin-bottom: 11%;
+        .main__contact--left{
+            width: 100%;
+            .main__form{
+                .main__containers{
+                    padding: 35px 0;
+                    margin-left: 40px;
+                }
+            }
+        }
+        .main__contact--right{
+            width: 100%;
+            margin-left: 10%;
+            .main__containers--right{
+                margin: 0;
+                .contacto__text--info{
+                    width: auto;
+                }
+            }
+        }
     }
 }
 
@@ -305,60 +312,65 @@
     /* About */
     .main__about{
         height: 100vh;
-    }
-    .main__img--about{
-        width: 400px;
-        height: 400px;
-    }
-    .main__description{
-        margin-left: 25%;
-        margin-right: 0;
-    }
-    .main__description--title{
-        margin-left: 25%;
-        margin-right: 0;
-    }
-    .main__description--text{
-        margin-left: 25%;
-        margin-right: 0;
+        .main__left{
+            .div__left{
+                .main__img--about{
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+        .main__right{
+            .div__right{
+                .main__description{
+                    margin-left: 25%;
+                    margin-right: 0;
+                }
+                .main__description--title{
+                    margin-left: 25%;
+                    margin-right: 0;
+                }
+                .main__description--text{
+                    margin-left: 25%;
+                    margin-right: 0;
+                }
+            }
+        }
     }
     /* Gallery */
-    .gallery__main--container{
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 0px;
-    }
-    .main__img--projects{
-        height: 350px;
-        width: 350px;
+    .gallery__main{
+        .gallery__main--container{
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 0px;
+        }
     }
     /* Contact */
     .main__contact{
         width: 100%;
         height: 100vh;
         flex-wrap: wrap;
-        margin-bottom: 5%;
-    }
-    .main__contact--left{
-        width: 100%;
-    }
-    .main__containers{
-        padding: 35px 0;
-        margin-left: 40px;
-    }
-    .main__contact--right{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        margin: 0 10%;
-    }
-    .contacto__text--info{
-        width: 100%;
-    }
-    .main__containers--right{
-        margin: 0;
-    }
-    .input{
-        width: 50%;
+        margin-bottom: 12%;
+        .main__contact--left{
+            width: 100%;
+            .main__form{
+                .main__containers{
+                    padding: 35px 0;
+                    margin-left: 40px;
+                }
+            }
+        }
+        .main__contact--right{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin: 0 10%;
+            .main__containers--right{
+                margin: 0;
+                .contacto__text--info{
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
