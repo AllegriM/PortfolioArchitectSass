@@ -385,10 +385,14 @@
     /* About */
     .main__about{
         height: 100vh;
-    }
-    .main__img--about{
-        width: 500px;
-        height: 500px;
+        .main__left{
+            .div__left{
+                .main__img--about{
+                    width: 500px;
+                    height: 500px;
+                }
+            }
+        }
     }
     /* Projects */
     .main__img--projects{
