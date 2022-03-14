@@ -22,7 +22,7 @@
                     filter: grayscale(100%);
                     cursor: pointer;
                     transition: 0.3s ease-out;
-                    .main__img--projects:hover{
+                    &:hover{
                         filter: grayscale(0%);
                     }
                     .main__img--projects &:hover{

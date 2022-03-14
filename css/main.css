@@ -299,7 +299,7 @@ main {
           filter: grayscale(100%);
           cursor: pointer;
           transition: 0.3s ease-out; }
-          .main__projects .main__container .main__ul--projects .main__li--projects .main__img--projects .main__img--projects:hover {
+          .main__projects .main__container .main__ul--projects .main__li--projects .main__img--projects:hover {
             filter: grayscale(0%); }
           .main__img--projects .main__projects .main__container .main__ul--projects .main__li--projects .main__img--projects:hover {
             border: 10px solid #F2F2F2; }
@@ -364,11 +364,11 @@ main {
     animation: right-load 600ms ease-in-out; }
     .main__contact .main__contact--left .main__form .main__containers {
       margin: 50px 30%; }
-      .main__contact .main__contact--left .main__form .main__containers .main__container--hello .contact__text {
+      .main__contact .main__contact--left .main__form .main__containers .main__container--hello .contact__text, .main__contact .main__contact--left .main__form .main__containers .main__container--hello .main__contact--right .main__containers--right .contacto__text--info, .main__contact .main__contact--right .main__containers--right .main__contact--left .main__form .main__containers .main__container--hello .contacto__text--info {
         color: #5c5c5c;
         font-size: 1.5rem;
         font-family: "Roboto Slab", serif; }
-        .main__contact .main__contact--left .main__form .main__containers .main__container--hello .contact__text .contact__mano {
+        .main__contact .main__contact--left .main__form .main__containers .main__container--hello .contact__text .contact__mano, .main__contact .main__contact--left .main__form .main__containers .main__container--hello .main__contact--right .main__containers--right .contacto__text--info .contact__mano, .main__contact .main__contact--right .main__containers--right .main__contact--left .main__form .main__containers .main__container--hello .contacto__text--info .contact__mano {
           width: 25px;
           height: 25px; }
       .main__contact .main__contact--left .main__form .main__containers .main__container--inputs {
@@ -425,14 +425,12 @@ main {
     animation: left-load 600ms ease-in-out; }
     .main__contact .main__contact--right .main__containers--right {
       margin: 50px 30%; }
-      .main__contact .main__contact--right .main__containers--right .contact__text {
+      .main__contact .main__contact--right .main__containers--right .contact__text, .main__contact .main__contact--right .main__containers--right .contacto__text--info {
         color: #5c5c5c;
         font-size: 1.5rem;
         font-family: "Roboto Slab", serif; }
       .main__contact .main__contact--right .main__containers--right .contacto__text--info {
         margin-top: 10px;
-        font-size: 1.5rem;
-        font-family: "Roboto Slab", serif;
         color: #F2F2F2; }
 
 /*== Loading animations ==*/
