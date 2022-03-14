@@ -4,3 +4,15 @@ $color-footer: #0D0D0D;
 $color-font-grey: rgb(92, 92, 92);
 $font-headings:'Roboto', sans-serif;
 $font-texts: 'Roboto Slab', serif;
+
+$font-weights: (
+'thin': 100,
+'regular': 300,
+'semibold':600,
+'bold': 700  
+);
+
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+}

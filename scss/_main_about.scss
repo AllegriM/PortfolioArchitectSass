@@ -4,9 +4,8 @@
     grid-area: main;
     background: $color-background;
     height: 100%;
-    display: flex;
+    @include flexCenter;
     justify-content: space-around;
-    align-items: center;
     padding: 30px 0;
     // Izquierda: Imagen
     .main__left{
@@ -40,14 +39,14 @@
                 color: $color-font;
                 font-family: $font-headings;
                 font-size: 3rem;
-                font-weight: 300;
+                font-weight: map-get($font-weights, regular);
                 margin: 0% 35% 0% 10%;
                 animation: left-load 500ms ease-in-out;
                 .yellow-text{
                     color: rgb(255, 255, 95);
                     font-family: $font-headings;
                     font-size: 3rem;
-                    font-weight: 600;
+                    font-weight: map-get($font-weights, semibold);
                 }
             }
             .main__description--text{
@@ -72,7 +71,7 @@
                     border: none;
                     text-align: center;
                     cursor: pointer;
-                    font-weight: 600;
+                    font-weight: map-get($font-weights, semibold);
                     animation: left-load 600ms ease-out;
                 }
             }

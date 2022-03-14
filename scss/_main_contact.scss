@@ -1,12 +1,11 @@
 // Main Contact
 
 .main__contact{
+    @include flexCenter;
     grid-area: main;
     height: 100vh;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     // Left side
     .main__contact--left{
         width: 50%;

@@ -8,9 +8,8 @@
     .main__container{
         margin: 0% 20%;
         .main__ul--projects{
-            display: flex;
+            @include flexCenter;
             justify-content: space-evenly;
-            align-items: center;
             flex-wrap: wrap;
             // <!-- Lista de proyectos -->
             .main__li--projects{

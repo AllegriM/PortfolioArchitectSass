@@ -35,10 +35,9 @@
             transition: left 0.3s ease-in-out;
             .nav__ul--responsive{
                 height: 100vh;
-                display: flex;
+                @include flexCenter;
                 flex-direction: column;
                 justify-content: space-around;
-                align-items: center;
                 .nav__li--responsive{
                     list-style: none;
                     .nav__a--responsive{
@@ -68,10 +67,9 @@
             background: $color-font-grey;
         }
         .nav__ul--pages{
-            display: flex;
+            @include flexCenter;
             flex-direction: row;
             justify-content: center;
-            align-items: center;
             .nav__li--pages{
                 padding: 15px 0;
                 margin: 0 5%;
@@ -84,7 +82,7 @@
                     text-decoration: none;
                     color: $color-font;
                     font-family: $font-headings;
-                    font-weight: 100;
+                    font-weight: map-get($font-weights, thin);
                     font-size: 2rem;
                     &::after{
                         content: "";
