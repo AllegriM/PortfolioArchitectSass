@@ -4,7 +4,7 @@
     /* Index */
     .nav__pages{
         height: 75px;
-        background-color: $color-background;
+        background-color: transparent;;
         .nav__ul--pages{
             .nav__li--pages{
                 display: none;
@@ -106,12 +106,9 @@
         right: 30px;
         top: 20px;
     }
-    .header__index{
-        background: transparent;
-    }
     .header__pages{
         height: 70px;
-        background: $color-background;
+        background: transparent;
         width: 100%;
         .nav__ul--pages{
             .nav__li--pages{

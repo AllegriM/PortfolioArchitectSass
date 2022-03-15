@@ -469,7 +469,7 @@ main {
   /* Index */
   .nav__pages {
     height: 75px;
-    background-color: #1F1F1F; }
+    background-color: transparent; }
     .nav__pages .nav__ul--pages .nav__li--pages {
       display: none; }
   .fa-bars {
@@ -540,11 +540,9 @@ main {
     position: absolute;
     right: 30px;
     top: 20px; }
-  .header__index {
-    background: transparent; }
   .header__pages {
     height: 70px;
-    background: #1F1F1F;
+    background: transparent;
     width: 100%; }
     .header__pages .nav__ul--pages .nav__li--pages {
       display: none; }
