@@ -2,5 +2,7 @@
 
 Sass Version of my Architect Portfolio 
 
-Online Version: https://allegrim.github.io/PortfolioArchitectSass/
+GitHub Pages: https://allegrim.github.io/PortfolioArchitectSass/
+
+Server Online Version: https://architechportfolio.000webhostapp.com/
  
