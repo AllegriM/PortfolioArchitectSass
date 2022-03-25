@@ -3,7 +3,7 @@
 // <!-- Proyectos -->
 .main__projects{
     grid-area: main;
-    padding: 5% 0;
+    padding: 1% 0 5% 0;
     height: 100%;
     .main__container{
         margin: 0% 20%;
@@ -11,6 +11,15 @@
             @include flexCenter;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            .projects__main--title{
+                margin: 75px 0;
+                width: 100%;
+                .projects__main--p{
+                    font-size: 3.5rem;
+                    text-align: center;
+                    color: $color-font;
+                }
+            }
             // <!-- Lista de proyectos -->
             .main__li--projects{
                 margin: 20px 30px;

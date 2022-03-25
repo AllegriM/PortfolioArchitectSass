@@ -47,7 +47,7 @@ html {
       left: 0; }
   .header__pages div .fa-bars {
     font-size: 3rem;
-    color: #F2F2F2;
+    color: #f2f2f2;
     z-index: 2000; }
   .header__pages .nav-responsive {
     position: absolute;
@@ -69,7 +69,7 @@ html {
         .header__pages .nav-responsive .nav__ul--responsive .nav__li--responsive .nav__a--responsive {
           font-size: 2.5rem;
           text-decoration: none;
-          color: #F2F2F2;
+          color: #f2f2f2;
           position: relative;
           margin: 0 1.5em; }
   .header__pages .nav__pages {
@@ -102,7 +102,7 @@ html {
         .header__pages .nav__pages .nav__ul--pages .nav__li--pages .nav__a {
           position: relative;
           text-decoration: none;
-          color: #F2F2F2;
+          color: #f2f2f2;
           font-family: "Roboto", sans-serif;
           font-weight: 100;
           font-size: 2rem; }
@@ -113,7 +113,7 @@ html {
             bottom: 0;
             width: 100%;
             height: 1px;
-            background: #F2F2F2;
+            background: #f2f2f2;
             transform: scaleX(0);
             transform-origin: right;
             transition: transform 250ms ease-in-out; }
@@ -127,7 +127,7 @@ html {
 .footer__pages {
   grid-area: footer;
   background: #1F1F1F;
-  color: #F2F2F2;
+  color: #f2f2f2;
   height: auto;
   width: 100%;
   padding: 15px;
@@ -153,11 +153,11 @@ html {
   .footer__pages .footer__p {
     text-align: center;
     font-size: 1.5rem;
-    color: #F2F2F2; }
+    color: #f2f2f2; }
     .footer__pages .footer__p .footer__span {
       padding: 0;
       text-align: center;
-      color: #F2F2F2;
+      color: #f2f2f2;
       font-weight: bold;
       font-family: "Roboto Slab", serif; }
   .footer__pages .footer__container {
@@ -165,13 +165,13 @@ html {
     .footer__pages .footer__container .footer__span {
       padding: 0;
       text-align: center;
-      color: #F2F2F2;
+      color: #f2f2f2;
       font-weight: bold;
       font-family: "Roboto Slab", serif; }
     .footer__pages .footer__container .footer__a {
       text-align: center;
       text-decoration: none;
-      color: #F2F2F2;
+      color: #f2f2f2;
       transition: 0.3s ease-out;
       margin: 0 1%; }
       .footer__pages .footer__container .footer__a .footer__icons {
@@ -181,14 +181,14 @@ html {
         border-radius: 50%; }
         .footer__pages .footer__container .footer__a .footer__icons:hover {
           color: black;
-          background-color: #F2F2F2; }
+          background-color: #f2f2f2; }
 
 main {
   grid-area: main; }
   main .main__music {
     display: flex;
     align-items: center;
-    color: #F2F2F2;
+    color: #f2f2f2;
     text-align: center;
     position: absolute;
     font-size: 1.5rem;
@@ -204,7 +204,7 @@ main {
     top: 0;
     bottom: 0; }
   main .main__text {
-    color: #F2F2F2;
+    color: #f2f2f2;
     position: absolute;
     top: 50%;
     margin-left: 10%;
@@ -238,12 +238,12 @@ main {
       .main__about .main__right .div__right .main__description {
         margin: 0 10% 3% 10%;
         font-size: 6rem;
-        color: #F2F2F2;
+        color: #f2f2f2;
         font-family: "Roboto", sans-serif;
         animation: left-load 400ms ease-in-out; }
       .main__about .main__right .div__right .main__description--title {
         display: inline-block;
-        color: #F2F2F2;
+        color: #f2f2f2;
         font-family: "Roboto", sans-serif;
         font-size: 3rem;
         font-weight: 300;
@@ -256,7 +256,7 @@ main {
           font-weight: 600; }
       .main__about .main__right .div__right .main__description--text {
         margin: 5% 35% 0 10%;
-        color: #F2F2F2;
+        color: #f2f2f2;
         font-size: 1.6rem;
         line-height: 1.7;
         font-family: "Roboto Slab", serif;
@@ -280,7 +280,7 @@ main {
 
 .main__projects {
   grid-area: main;
-  padding: 5% 0;
+  padding: 1% 0 5% 0;
   height: 100%; }
   .main__projects .main__container {
     margin: 0% 20%; }
@@ -289,6 +289,13 @@ main {
       align-items: center;
       justify-content: space-evenly;
       flex-wrap: wrap; }
+      .main__projects .main__container .main__ul--projects .projects__main--title {
+        margin: 75px 0;
+        width: 100%; }
+        .main__projects .main__container .main__ul--projects .projects__main--title .projects__main--p {
+          font-size: 3.5rem;
+          text-align: center;
+          color: #f2f2f2; }
       .main__projects .main__container .main__ul--projects .main__li--projects {
         margin: 20px 30px; }
         .main__projects .main__container .main__ul--projects .main__li--projects .main__img--projects {
@@ -302,14 +309,14 @@ main {
           .main__projects .main__container .main__ul--projects .main__li--projects .main__img--projects:hover {
             filter: grayscale(0%); }
           .main__img--projects .main__projects .main__container .main__ul--projects .main__li--projects .main__img--projects:hover {
-            border: 10px solid #F2F2F2; }
+            border: 10px solid #f2f2f2; }
         .main__projects .main__container .main__ul--projects .main__li--projects .main__projects--texts {
           text-align: center; }
           .main__projects .main__container .main__ul--projects .main__li--projects .main__projects--texts .main__projects--title {
             font-family: 'BonvenoCFLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
             text-transform: uppercase;
             margin-top: 10px;
-            color: #F2F2F2;
+            color: #f2f2f2;
             font-size: 1.5rem; }
           .main__projects .main__container .main__ul--projects .main__li--projects .main__projects--texts .line {
             display: block;
@@ -320,7 +327,7 @@ main {
           .main__projects .main__container .main__ul--projects .main__li--projects .main__projects--texts .main__projects--desc {
             margin-top: 10px;
             font-family: 'VollkornItalic', Georgia, "Times New Roman", Times, serif;
-            color: #F2F2F2;
+            color: #f2f2f2;
             font-style: italic; }
 
 .gallery__main {
@@ -331,7 +338,7 @@ main {
     .gallery__main .gallery__main--title .gallery__main--p {
       font-size: 3.5rem;
       text-align: center;
-      color: #F2F2F2; }
+      color: #f2f2f2; }
   .gallery__main .gallery__main--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -375,31 +382,75 @@ main {
         margin-top: 10px;
         width: 100%; }
         .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .main__container--labels {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
           margin: 5% 0;
           padding: 5px 0;
           height: 80px; }
           .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .main__container--labels label {
             display: block;
             font-family: "Roboto Slab", serif;
-            color: #F2F2F2;
+            color: #f2f2f2;
             font-size: 2rem;
             margin: 0; }
           .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .main__container--labels input {
-            width: 90%;
-            margin: 15px 0;
-            padding: 10px 0;
-            font-family: "Roboto Slab", serif; }
-            .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .main__container--labels input:focus {
-              border-bottom: 1px solid #F2F2F2; }
-        .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .buttonSend {
-          width: auto;
-          margin-top: 70px;
-          margin-left: 100%;
-          color: #F2F2F2;
-          height: 70px;
-          font-family: "Roboto Slab", serif;
-          font-size: 2rem;
-          cursor: pointer; }
+            width: 80%;
+            font-family: "Roboto Slab", serif;
+            color: #f2f2f2;
+            position: relative;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+        .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end; }
+          .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button {
+            margin-top: 2.5em;
+            width: 140px;
+            height: 45px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background: transparent;
+            position: relative;
+            transition: all 0.5s;
+            z-index: 4000; }
+            .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 5px;
+              height: 100%;
+              background-color: white;
+              z-index: 3000;
+              transition: all 0.5s; }
+            .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button:hover::before {
+              width: 100%; }
+            .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button:hover {
+              color: black; }
+            .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button:active:before {
+              background: #b9b9b9; }
+            .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button .buttonSend {
+              width: 100%;
+              height: 100%;
+              color: #f2f2f2;
+              font-family: "Roboto Slab", serif;
+              font-weight: 700;
+              cursor: pointer;
+              border: none;
+              outline: none;
+              background: transparent;
+              position: relative;
+              transition: all 0.5s;
+              z-index: 4000; }
+              .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button .buttonSend:hover {
+                color: black; }
+              .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button .buttonSend:hover::before {
+                width: 100%; }
+              .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .div__buttonSend button .buttonSend:active:before {
+                background: #b9b9b9; }
         .main__contact .main__contact--left .main__form .main__containers .main__container--inputs .textareas {
           height: 100px;
           margin-top: 15px;
@@ -413,13 +464,13 @@ main {
           outline: none;
           border: none;
           height: 20px;
-          color: #F2F2F2;
+          color: #f2f2f2;
           font-size: 1.5rem;
           resize: none;
           display: inline-block; }
           .main__contact .main__contact--left .main__form .main__containers .main__container--inputs input:focus,
           .main__contact .main__contact--left .main__form .main__containers .main__container--inputs textarea:focus {
-            border-bottom: 1px solid #F2F2F2; }
+            border-bottom: 1px solid #f2f2f2; }
   .main__contact .main__contact--right {
     /* width: 50%; */
     animation: left-load 600ms ease-in-out; }
@@ -431,7 +482,7 @@ main {
         font-family: "Roboto Slab", serif; }
       .main__contact .main__contact--right .main__containers--right .contacto__text--info {
         margin-top: 10px;
-        color: #F2F2F2; }
+        color: #f2f2f2; }
 
 /*== Loading animations ==*/
 @keyframes up-load {
